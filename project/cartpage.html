@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food website</title>
+    <link rel="stylesheet" href="terminal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="container" class="container">
+        <div id="menu">
+            <div class="brand-logo">
+                <img src="brandlogo.png" alt="logo">
+            </div>
+            <div class="menu-items">
+                <a href="#">Services</a>
+                <a href="#">Your Order</a>
+                <a href="#">Wishlist</a>
+                <a href="#">Address</a>
+                <a href="#">about</a>
+                <a href="#">Help</a>
+            </div>
+        </div>
+        <div id="food-container">
+            <div id="header">
+                <div class="add-box">
+                    <i class="fa fa-map-marker Your-address" id="add-address">
+                        your Address
+                    </i>
+                </div>
+                <div class="util">
+                    <i class="fa fa-search">Search</i>
+                    <i class="fa fa-tags">Offers</i>
+                    <i class="fa fa-cart-plus" id="cart-plus">0 Items</i>
+                </div>
+            </div>
+            <div id="cart-page" class="cart-toggle">
+                <p id="cart-title">Cart Items</p>
+                <p id="m-total-amount">Total Amount: $100</p>
+                <table>
+                    <thead>
+                        <td>Items</tdS>
+                        <td>Name</td>
+                        <td>Quantity</td>
+                        <td>price</td>
+                    </thead>
+                    <tbody id="table-body">
+                        <tr>
+                            <td>
+                                <img src="a.jpg" alt="img">
+                            </td>
+                            <td>
+                                chicken
+                            </td>
+                            <td>
+                                <button class="decrese-item">- </button>
+                                <button class="increase-item">+</button>
+                            </td>
+                            <td>10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div >
+        <div id="cart">
+            <div class="taste-header">
+                <div class="user">
+                    <i class="fa fa-user-circle">Account</i>
+                </div>
+            </div>
+            <div id="checkout" class="cart-toggle">
+                <p id="total-item">Total Items : 5</p>
+                <p id="total-price">Total Price: $50</p>
+                <p id="delivery">Free Delivery above $40</p>
+                <button class="cart-btn">Checkout</button>
+            </div>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
